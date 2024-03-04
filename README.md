@@ -5,15 +5,16 @@
 ## Vrai ou faux
 
 Etant donné le diagramme de domaine ci-dessus, les assertions suivantes sont-elles vraies ou fausses ? 
-- Etudiant est une classe d’association
-- Un étudiant peut participer à autant de cours qu’il veut
-- Plusieurs professeurs peuvent enseigner la même discipline
-- Un professeur peut enseigner plusieurs disciplines
-- Un cours peut être enseigner à 2 étudiants
-- Un cours peut être enseigner à 20 étudiants 
+- Etudiant est une classe d’association FAUX
+- Un étudiant peut participer à autant de cours qu’il veut VRAI
+- Plusieurs professeurs peuvent enseigner la même discipline FAUX
+- Un professeur peut enseigner plusieurs disciplines VRAI
+- Un cours peut être enseigner à 2 étudiants FAUX
+- Un cours peut être enseigner à 20 étudiants VRAI
 
 ## Question ouverte
 
 Représentez la même association avec la notation UML « petit losange » 
 
 - Quelles informations perd-on par rapport au diagramme ci-dessus ? 
+La cardinalité entre Professeur et Discipline
